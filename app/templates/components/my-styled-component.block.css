@@ -1,0 +1,15 @@
+:scope {
+  text-align: center;
+}
+
+.title {
+  color: purple;
+}
+
+.tagline {
+  color: blue;
+}
+
+.does-not-exist {
+  color: gray;
+}

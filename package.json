@@ -17,6 +17,9 @@
     "start": "ember serve",
     "test": "ember test"
   },
+  "dependencies": {
+    "@css-blocks/ember-cli": "^0.23.2"
+  },
   "devDependencies": {
     "@ember/jquery": "^0.6.0",
     "@ember/optional-features": "^0.7.0",

@@ -1,0 +1,44 @@
+@block a from "../a.block.css";
+
+:scope {
+  text-align: center;
+}
+
+:scope[state|active] {
+  background-color: red;
+}
+
+.title {
+  color: purple;
+}
+
+.missing-class {
+  color: red;
+}
+
+.title[state|fizzbuzz] {
+  text-decoration: overline;
+}
+
+.title[state|soemthingelse] {
+  text-decoration: none;
+}
+
+.tagline {
+  color: blue;
+}
+
+.tagline[state|footer] {
+  text-decoration: underline;
+}
+
+.some-rando-util {
+  position: relative;
+}
+
+.does-not-exist-2 {
+  position: relative;
+}
+
+@export a;
+
